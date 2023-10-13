@@ -4,11 +4,16 @@
   "description": "Este projeto visa criar um sistema abrangente de controle de acesso para cultos infantis em uma igreja ou organização religiosa.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/index.js"
   },
   "author": "Maycon Rocha",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
