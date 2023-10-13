@@ -1,0 +1,14 @@
+{
+  "name": "controle-acesso-culto-infantil",
+  "version": "1.0.0",
+  "description": "Este projeto visa criar um sistema abrangente de controle de acesso para cultos infantis em uma igreja ou organização religiosa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maycon Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
